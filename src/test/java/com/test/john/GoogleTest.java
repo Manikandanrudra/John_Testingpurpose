@@ -23,7 +23,7 @@ public class GoogleTest {
     @Test
     public void testGoogle() {
         driver.get("https://www.google.com");
-        System.out.println("Title: " + driver.getTitle());
+        System.out.println("Title: " + driver.getTitle())
     }
 
     @AfterMethod
